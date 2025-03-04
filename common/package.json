@@ -1,0 +1,54 @@
+{
+  "name": "@semanix/common",
+  "version": "1.0",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "exports": {
+    "./*": {
+      "types": "./src/*.ts",
+      "default": "./dist/*.js"
+    },
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./validators/*": {
+      "types": "./src/validators/*.ts",
+      "default": "./dist/validators/*.js"
+    },
+    "./validators": {
+      "types": "./src/validators/index.ts",
+      "default": "./dist/validators/index.js"
+    },
+    "./validators/user/*": {
+      "types": "./src/validators/user/*.ts",
+      "default": "./dist/validators/user/*.js"
+    },
+    "./validators/user": {
+      "types": "./src/validators/user/index.ts",
+      "default": "./dist/validators/user/index.js"
+    },
+    "./types/*": {
+      "types": "./src/types/*.ts",
+      "default": "./dist/types/*.js"
+    },
+    "./types": {
+      "types": "./src/types/index.ts",
+      "default": "./dist/types/index.js"
+    },
+    "./types/core/*": {
+      "types": "./src/types/core/*.ts",
+      "default": "./dist/types/core/*.js"
+    },
+    "./types/core": {
+      "types": "./src/types/core/index.ts",
+      "default": "./dist/types/core/index.js"
+    },
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {}
+}
