@@ -6,7 +6,7 @@ import path from "path";
 import { parseTxt, parseZip } from "@/utils/file/parse";
 import { ZIP_FORMATS } from "@/constants";
 
-const EXTRACTION_FOLDER = path.join(process.cwd(), "../whatsapp/to_process/");
+const EXTRACTION_FOLDER = path.join(process.cwd(), "../.whatsapp/to_process/");
 
 const whatsappRouter = new Hono().post(
   "/process",
