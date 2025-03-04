@@ -20,7 +20,6 @@
         "@langchain/community": "^0.3.33",
         "@langchain/core": "^0.3.42",
         "@langchain/qdrant": "^0.1.1",
-        "@semanix/common": "workspace:*",
         "adm-zip": "^0.5.16",
         "bcryptjs": "^3.0.2",
         "drizzle-orm": "^0.39.3",
@@ -43,7 +42,6 @@
         "@mantine/core": "^7.17.0",
         "@mantine/hooks": "^7.17.0",
         "@semanix/backend": "workspace:*",
-        "@tabler/icons-react": "^3.30.0",
         "@tanstack/react-router": "^1.111.7",
         "axios": "^1.8.1",
         "hono": "^4.7.2",
@@ -341,10 +339,6 @@
     "@semanix/common": ["@semanix/common@workspace:common"],
 
     "@sevinf/maybe": ["@sevinf/maybe@0.5.0", "", {}, "sha512-ARhyoYDnY1LES3vYI0fiG6e9esWfTNcXcO6+MPJJXcnyMV3bim4lnFt45VXouV7y82F4x3YH8nOQ6VztuvUiWg=="],
-
-    "@tabler/icons": ["@tabler/icons@3.30.0", "", {}, "sha512-c8OKLM48l00u9TFbh2qhSODMONIzML8ajtCyq95rW8vzkWcBrKRPM61tdkThz2j4kd5u17srPGIjqdeRUZdfdw=="],
-
-    "@tabler/icons-react": ["@tabler/icons-react@3.30.0", "", { "dependencies": { "@tabler/icons": "3.30.0" }, "peerDependencies": { "react": ">= 16" } }, "sha512-9KZ9D1UNAyjlLkkYp2HBPHdf6lAJ2aelDqh8YYAnnmLF3xwprWKxxW8+zw5jlI0IwdfN4XFFuzqePkaw+DpIOg=="],
 
     "@tanstack/history": ["@tanstack/history@1.99.13", "", {}, "sha512-JMd7USmnp8zV8BRGIjALqzPxazvKtQ7PGXQC7n39HpbqdsmfV2ePCzieO84IvN+mwsTrXErpbjI4BfKCa+ZNCg=="],
 

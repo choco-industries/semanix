@@ -1,6 +1,6 @@
 import whatsappUploadSchema from "@/validators/whatsappUploadSchema";
 import { zValidator } from "@hono/zod-validator";
-import { ApiResponse } from "@semanix/common/types/index";
+import { ApiResponse } from "@/types";
 import { Hono } from "hono";
 import path from "path";
 import { parseTxt, parseZip } from "@/utils/file/parse";

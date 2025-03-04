@@ -14,7 +14,6 @@
     "@langchain/community": "^0.3.33",
     "@langchain/core": "^0.3.42",
     "@langchain/qdrant": "^0.1.1",
-    "@semanix/common": "workspace:*",
     "adm-zip": "^0.5.16",
     "bcryptjs": "^3.0.2",
     "drizzle-orm": "^0.39.3",

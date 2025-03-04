@@ -11,11 +11,9 @@
   },
   "dependencies": {
     "@hono/auth-js": "^1.0.15",
-    "@mantine/core": "^7.17.0",
+    "@mantine/core": "^7.17.1",
     "@mantine/hooks": "^7.17.0",
-    "@tabler/icons-react": "^3.30.0",
     "@tanstack/react-router": "^1.111.7",
-    "@semanix/backend": "workspace:*",
     "axios": "^1.8.1",
     "hono": "^4.7.2",
     "react": "^19.0.0",
