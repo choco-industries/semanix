@@ -25,3 +25,4 @@ dist-ssr
 
 .whatsapp
 .env
+sqlite.db
